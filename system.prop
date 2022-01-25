@@ -75,3 +75,18 @@ persist.timed.enable=true
 # WiFi Display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+# Havoc
+ro.havoc.device.name=Asus Max Pro M1
+ro.havoc.group.url=t.me/+BaJnedaBMMQxNzg9
+ro.havoc.maintainer=Sukeerat Singh Goindi
+ro.havoc.maintainer.username=Irongfly
+
+# Graphics
+
+debug.sf.latch_unsignaled=1
+persist.demo.hdmirotationlock=false
+persist.hwc.enable_vds=1
+sdm.debug.disable_skip_validate=1
+persist.sys.sf.disable_blurs=1
+
