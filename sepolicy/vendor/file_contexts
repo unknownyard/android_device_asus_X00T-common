@@ -22,6 +22,11 @@
 # Light HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.asus_sdm660                u:object_r:hal_light_default_exec:s0
 
+# msm thermal
+/sys/module/msm_thermal/core_control/enabled		u:object_r:sysfs_corecontrol:s0
+/sys/module/msm_thermal/parameters/enabled		u:object_r:sysfs_msmthermal:s0
+/sys/module/msm_thermal/vdd_restriction/enabled		u:object_r:sysfs_vddrestrict:s0
+
 # Nvram
 /system/bin/nvram_btwifi                                                      u:object_r:nvram_btwifi_exec:s0
 

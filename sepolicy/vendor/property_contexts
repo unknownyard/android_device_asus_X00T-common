@@ -9,5 +9,15 @@ persist.vendor.camera.pickres.prop_hdr        u:object_r:vendor_camera_prop:s0
 property.cdfinger.enablesave                  u:object_r:vendor_fingerprint_prop:s0
 persist.vendor.runin.fp                       u:object_r:vendor_fingerprint_prop:s0
 
+# MSM thermal profile
+persist.cpucore.profile            u:object_r:cpucore_prop:s0
+
 # NFC
 ro.hq.support.nfc                             u:object_r:nfc_sensors_prop:s0
+
+#TCP
+persist.tcp.profile		   u:object_r:tcp_prop:s0
+
+# GPU/CPU Boosts
+persist.zenparts.gpu_profile                  u:object_r:boosts_prop:s0
+persist.zenparts.cpu_profile                  u:object_r:boosts_prop:s0
